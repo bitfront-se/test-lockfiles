@@ -1,12 +1,20 @@
 lockfileVersion: 5.3
 
 specifiers:
+  eslint-config-prettier: 8.3.0
   espree: ^9.3.0
+  prettier: 2.5.1
+  stylelint-prettier: 2.0.0
   z: ^1.0.9
 
 dependencies:
   espree: 9.3.0
   z: 1.0.9
+
+devDependencies:
+  eslint-config-prettier: 8.3.0
+  prettier: 2.5.1
+  stylelint-prettier: 2.0.0_prettier@2.5.1
 
 packages:
 
@@ -47,6 +55,13 @@ packages:
       object-keys: 1.1.1
     dev: false
 
+  /eslint-config-prettier/8.3.0:
+    resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==, tarball: '-/pull/eslint-config-prettier/8.3.0'}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dev: true
+
   /eslint-visitor-keys/3.2.0:
     resolution: {integrity: sha512-IOzT0X126zn7ALX0dwFiUQEdsfzrm4+ISsQS8nukaJXwEyYKRSnEIIDULYg1mCtGp7UUXgfGl7BIolXREQK+XQ==, tarball: '-/pull/eslint-visitor-keys/3.2.0'}
     dev: false
@@ -58,6 +73,10 @@ packages:
       acorn-jsx: 5.3.2_acorn@8.7.0
       eslint-visitor-keys: 3.2.0
     dev: false
+
+  /fast-diff/1.2.0:
+    resolution: {integrity: sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==, tarball: '-/pull/fast-diff/1.2.0'}
+    dev: true
 
   /flat/2.0.2:
     resolution: {integrity: sha512-b/cdFAr468cVs8XoG62dbGf9YegchdgEPX6sP7rppE0a4+RZF19kseTiDKGA1rIr3hOvOD0QIlSmaFlOlT0gfA==, tarball: '-/pull/flat/2.0.2'}
@@ -132,12 +151,33 @@ packages:
     resolution: {integrity: sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==, tarball: '-/pull/object-keys/1.1.1'}
     dev: false
 
+  /prettier-linter-helpers/1.0.0:
+    resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==, tarball: '-/pull/prettier-linter-helpers/1.0.0'}
+    dependencies:
+      fast-diff: 1.2.0
+    dev: true
+
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==, tarball: '-/pull/prettier/2.5.1'}
+    hasBin: true
+    dev: true
+
   /regexp.prototype.flags/1.4.1:
     resolution: {integrity: sha512-pMR7hBVUUGI7PMA37m2ofIdQCsomVnas+Jn5UPGAHQ+/LlwKm/aTLJHdasmHRzlfeZwHiAOaRSo2rbBDm3nNUQ==, tarball: '-/pull/regexp.prototype.flags/1.4.1'}
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.3
     dev: false
+
+  /stylelint-prettier/2.0.0_prettier@2.5.1:
+    resolution: {integrity: sha512-jvT3G+9lopkeB0ARmDPszyfaOnvnIF+30QCjZxyt7E6fynI1T9mOKgYDNb9bXX17M7PXMZaX3j/26wqakjp1tw==, tarball: '-/pull/stylelint-prettier/2.0.0'}
+    peerDependencies:
+      prettier: '>=2.0.0'
+      stylelint: '>=14.0.0'
+    dependencies:
+      prettier: 2.5.1
+      prettier-linter-helpers: 1.0.0
+    dev: true
 
   /z/1.0.9:
     resolution: {integrity: sha512-Vocq47YR4WoT+4wu80VsJwKi0Y92R20Vqq7AxghN9KFIa4J4CUae1uKnwtv4w33QvjnKjb/7rWHRC93TFQc0jA==, tarball: '-/pull/z/1.0.9'}
