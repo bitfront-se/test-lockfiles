@@ -11,5 +11,10 @@
   "dependencies": {
     "espree": "^9.3.0",
     "z": "^1.0.9"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.5.1",
+    "stylelint-prettier": "2.0.0"
   }
 }
