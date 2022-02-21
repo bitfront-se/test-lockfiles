@@ -1,0 +1,32 @@
+{
+  "name": "bytesafe-source-repo-demo",
+  "version": "1.2.3",
+  "description": "Bytesafe source repository demo dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfront-se/bytesafe-source-repo-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "test"
+  ],
+  "author": "Bytesafe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitfront-se/bytesafe-source-repo-demo/issues"
+  },
+  "homepage": "https://github.com/bitfront-se/bytesafe-source-repo-demo#readme",
+  "dependencies": {
+    "react": "15.7.0",
+    "react-query": "3.34.11",
+    "z": "1.0.9"
+  },
+  "devDependencies": {
+    "url-parse": "1.5.4",
+    "prettier": "2.2.1"
+  }
+}
