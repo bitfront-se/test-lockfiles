@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.9.0" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.5.14" />
+    <PackageReference Include="NuGet.Frameworks" Version="5.5.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="Serilog" Version="2.11.0-dev-01377" />
+    <PackageReference Include="NLog" Version="5.0.0-rc1" />
+    <PackageReference Include="Polly" Version="7.2.2" />
+    <PackageReference Include="Serilog.Sinks.Debug" Version="2.0.0" />
+    <PackageReference Include="xunit" Version="2.4.2-pre.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1-beta2" />
+    <PackageReference Include="Moq" Version="4.15.2" />
+    <PackageReference Include="tusdotnet" Version="2.4.0" />
+    <PackageReference Include="TinyMCE" Version="5.9.2" />
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.25" />
+    <PackageReference Include="MineStat" Version="2.0.0" />
+    <PackageReference Include="HostStat.NET" Version="1.0.2" />
+    <PackageReference Include="StatLight" Version="1.6.4375" />
+    <PackageReference Include="TinyMCE.Blazor" Version="0.0.9" />
+  </ItemGroup>
+
+</Project>
