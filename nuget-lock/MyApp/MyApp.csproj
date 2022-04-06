@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>1.1</Version>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -29,6 +30,7 @@
     <PackageReference Include="HostStat.NET" Version="1.0.2" />
     <PackageReference Include="StatLight" Version="1.6.4375" />
     <PackageReference Include="TinyMCE.Blazor" Version="0.0.9" />
+    <PackageReference Include="Autofac" Version="6.3.0" />
   </ItemGroup>
 
 </Project>
